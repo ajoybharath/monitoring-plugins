@@ -9,6 +9,8 @@
 # uses the system `ps` command for getting the process durations
 # alerts if the process is running for more than 24 hours
 #
+# revision version 1.1
+# Minor change in the ps command
 # Ajoy Bharath
 #
 use strict;
@@ -18,7 +20,7 @@ use Getopt::Long qw(:config no_ignore_case);
 
 # Generic variables
 my $progversion = "1";
-my $progrevision = "0";
+my $progrevision = "1";
 my $prog_name = "check_long_procs";
 my %STATUS_CODE = (
                         'OK'       => '0',
